@@ -1,0 +1,8 @@
+D:\wwwroot\netcore\netcoregit\Czar.Cms\Czar.Cms\Czar.Cms.IService\bin\Debug\netcoreapp3.1\Czar.Cms.IService.deps.json
+D:\wwwroot\netcore\netcoregit\Czar.Cms\Czar.Cms\Czar.Cms.IService\bin\Debug\netcoreapp3.1\Czar.Cms.IService.dll
+D:\wwwroot\netcore\netcoregit\Czar.Cms\Czar.Cms\Czar.Cms.IService\bin\Debug\netcoreapp3.1\Czar.Cms.IService.pdb
+D:\wwwroot\netcore\netcoregit\Czar.Cms\Czar.Cms\Czar.Cms.IService\obj\Debug\netcoreapp3.1\Czar.Cms.IService.AssemblyInfoInputs.cache
+D:\wwwroot\netcore\netcoregit\Czar.Cms\Czar.Cms\Czar.Cms.IService\obj\Debug\netcoreapp3.1\Czar.Cms.IService.AssemblyInfo.cs
+D:\wwwroot\netcore\netcoregit\Czar.Cms\Czar.Cms\Czar.Cms.IService\obj\Debug\netcoreapp3.1\Czar.Cms.IService.dll
+D:\wwwroot\netcore\netcoregit\Czar.Cms\Czar.Cms\Czar.Cms.IService\obj\Debug\netcoreapp3.1\Czar.Cms.IService.pdb
+D:\wwwroot\netcore\netcoregit\Czar.Cms\Czar.Cms\Czar.Cms.IService\obj\Debug\netcoreapp3.1\Czar.Cms.IService.csprojAssemblyReference.cache

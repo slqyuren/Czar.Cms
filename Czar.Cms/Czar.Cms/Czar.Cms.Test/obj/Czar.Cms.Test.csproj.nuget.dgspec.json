@@ -1,0 +1,400 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\wwwroot\\netcore\\netcoregit\\Czar.Cms\\Czar.Cms\\Czar.Cms.Test\\Czar.Cms.Test.csproj": {}
+  },
+  "projects": {
+    "D:\\wwwroot\\netcore\\netcoregit\\Czar.Cms\\Czar.Cms\\Czar.Cms.Core\\Czar.Cms.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\wwwroot\\netcore\\netcoregit\\Czar.Cms\\Czar.Cms\\Czar.Cms.Core\\Czar.Cms.Core.csproj",
+        "projectName": "Czar.Cms.Core",
+        "projectPath": "D:\\wwwroot\\netcore\\netcoregit\\Czar.Cms\\Czar.Cms\\Czar.Cms.Core\\Czar.Cms.Core.csproj",
+        "packagesPath": "C:\\Users\\86137\\.nuget\\packages\\",
+        "outputPath": "D:\\wwwroot\\netcore\\netcoregit\\Czar.Cms\\Czar.Cms\\Czar.Cms.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\86137\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.35, )"
+            },
+            "Dapper.SimpleCRUD": {
+              "target": "Package",
+              "version": "[2.2.0.1, )"
+            },
+            "Microsoft.Extensions.Options": {
+              "target": "Package",
+              "version": "[3.1.4, )"
+            },
+            "MySql.Data": {
+              "target": "Package",
+              "version": "[8.0.20, )"
+            },
+            "Npgsql": {
+              "target": "Package",
+              "version": "[4.1.3.1, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\wwwroot\\netcore\\netcoregit\\Czar.Cms\\Czar.Cms\\Czar.Cms.IRepository\\Czar.Cms.IRepository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\wwwroot\\netcore\\netcoregit\\Czar.Cms\\Czar.Cms\\Czar.Cms.IRepository\\Czar.Cms.IRepository.csproj",
+        "projectName": "Czar.Cms.IRepository",
+        "projectPath": "D:\\wwwroot\\netcore\\netcoregit\\Czar.Cms\\Czar.Cms\\Czar.Cms.IRepository\\Czar.Cms.IRepository.csproj",
+        "packagesPath": "C:\\Users\\86137\\.nuget\\packages\\",
+        "outputPath": "D:\\wwwroot\\netcore\\netcoregit\\Czar.Cms\\Czar.Cms\\Czar.Cms.IRepository\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\86137\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "D:\\wwwroot\\netcore\\netcoregit\\Czar.Cms\\Czar.Cms\\Czar.Cms.Core\\Czar.Cms.Core.csproj": {
+                "projectPath": "D:\\wwwroot\\netcore\\netcoregit\\Czar.Cms\\Czar.Cms\\Czar.Cms.Core\\Czar.Cms.Core.csproj"
+              },
+              "D:\\wwwroot\\netcore\\netcoregit\\Czar.Cms\\Czar.Cms\\Czar.Cms.Models\\Czar.Cms.Models.csproj": {
+                "projectPath": "D:\\wwwroot\\netcore\\netcoregit\\Czar.Cms\\Czar.Cms\\Czar.Cms.Models\\Czar.Cms.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\wwwroot\\netcore\\netcoregit\\Czar.Cms\\Czar.Cms\\Czar.Cms.Models\\Czar.Cms.Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\wwwroot\\netcore\\netcoregit\\Czar.Cms\\Czar.Cms\\Czar.Cms.Models\\Czar.Cms.Models.csproj",
+        "projectName": "Czar.Cms.Models",
+        "projectPath": "D:\\wwwroot\\netcore\\netcoregit\\Czar.Cms\\Czar.Cms\\Czar.Cms.Models\\Czar.Cms.Models.csproj",
+        "packagesPath": "C:\\Users\\86137\\.nuget\\packages\\",
+        "outputPath": "D:\\wwwroot\\netcore\\netcoregit\\Czar.Cms\\Czar.Cms\\Czar.Cms.Models\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\86137\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\wwwroot\\netcore\\netcoregit\\Czar.Cms\\Czar.Cms\\Czar.Cms.Repository.SqlServer\\Czar.Cms.Repository.SqlServer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\wwwroot\\netcore\\netcoregit\\Czar.Cms\\Czar.Cms\\Czar.Cms.Repository.SqlServer\\Czar.Cms.Repository.SqlServer.csproj",
+        "projectName": "Czar.Cms.Repository.SqlServer",
+        "projectPath": "D:\\wwwroot\\netcore\\netcoregit\\Czar.Cms\\Czar.Cms\\Czar.Cms.Repository.SqlServer\\Czar.Cms.Repository.SqlServer.csproj",
+        "packagesPath": "C:\\Users\\86137\\.nuget\\packages\\",
+        "outputPath": "D:\\wwwroot\\netcore\\netcoregit\\Czar.Cms\\Czar.Cms\\Czar.Cms.Repository.SqlServer\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\86137\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "D:\\wwwroot\\netcore\\netcoregit\\Czar.Cms\\Czar.Cms\\Czar.Cms.Core\\Czar.Cms.Core.csproj": {
+                "projectPath": "D:\\wwwroot\\netcore\\netcoregit\\Czar.Cms\\Czar.Cms\\Czar.Cms.Core\\Czar.Cms.Core.csproj"
+              },
+              "D:\\wwwroot\\netcore\\netcoregit\\Czar.Cms\\Czar.Cms\\Czar.Cms.IRepository\\Czar.Cms.IRepository.csproj": {
+                "projectPath": "D:\\wwwroot\\netcore\\netcoregit\\Czar.Cms\\Czar.Cms\\Czar.Cms.IRepository\\Czar.Cms.IRepository.csproj"
+              },
+              "D:\\wwwroot\\netcore\\netcoregit\\Czar.Cms\\Czar.Cms\\Czar.Cms.Models\\Czar.Cms.Models.csproj": {
+                "projectPath": "D:\\wwwroot\\netcore\\netcoregit\\Czar.Cms\\Czar.Cms\\Czar.Cms.Models\\Czar.Cms.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\wwwroot\\netcore\\netcoregit\\Czar.Cms\\Czar.Cms\\Czar.Cms.Test\\Czar.Cms.Test.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\wwwroot\\netcore\\netcoregit\\Czar.Cms\\Czar.Cms\\Czar.Cms.Test\\Czar.Cms.Test.csproj",
+        "projectName": "Czar.Cms.Test",
+        "projectPath": "D:\\wwwroot\\netcore\\netcoregit\\Czar.Cms\\Czar.Cms\\Czar.Cms.Test\\Czar.Cms.Test.csproj",
+        "packagesPath": "C:\\Users\\86137\\.nuget\\packages\\",
+        "outputPath": "D:\\wwwroot\\netcore\\netcoregit\\Czar.Cms\\Czar.Cms\\Czar.Cms.Test\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\86137\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "D:\\wwwroot\\netcore\\netcoregit\\Czar.Cms\\Czar.Cms\\Czar.Cms.Core\\Czar.Cms.Core.csproj": {
+                "projectPath": "D:\\wwwroot\\netcore\\netcoregit\\Czar.Cms\\Czar.Cms\\Czar.Cms.Core\\Czar.Cms.Core.csproj"
+              },
+              "D:\\wwwroot\\netcore\\netcoregit\\Czar.Cms\\Czar.Cms\\Czar.Cms.IRepository\\Czar.Cms.IRepository.csproj": {
+                "projectPath": "D:\\wwwroot\\netcore\\netcoregit\\Czar.Cms\\Czar.Cms\\Czar.Cms.IRepository\\Czar.Cms.IRepository.csproj"
+              },
+              "D:\\wwwroot\\netcore\\netcoregit\\Czar.Cms\\Czar.Cms\\Czar.Cms.Repository.SqlServer\\Czar.Cms.Repository.SqlServer.csproj": {
+                "projectPath": "D:\\wwwroot\\netcore\\netcoregit\\Czar.Cms\\Czar.Cms\\Czar.Cms.Repository.SqlServer\\Czar.Cms.Repository.SqlServer.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "MSTest.TestAdapter": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
+            "MSTest.TestFramework": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[3.1.4, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[3.1.4, )"
+            },
+            "Microsoft.Extensions.Configuration.EnvironmentVariables": {
+              "target": "Package",
+              "version": "[3.1.4, )"
+            },
+            "Microsoft.Extensions.Configuration.FileExtensions": {
+              "target": "Package",
+              "version": "[3.1.4, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[3.1.4, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[3.1.4, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[3.1.4, )"
+            },
+            "Microsoft.Extensions.Options": {
+              "target": "Package",
+              "version": "[3.1.4, )"
+            },
+            "Microsoft.Extensions.Options.ConfigurationExtensions": {
+              "target": "Package",
+              "version": "[3.1.4, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.2.0, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[1.0.1, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.1, )"
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.4.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
